@@ -9,11 +9,10 @@ print('EU Floor', euf)
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int usf, euf;
     printf("Enter US Floor\n");
-    // we pass usf by reference to allow scanf to modify it's value
+    // we pass usf by reference to allow scanf to set it's value
     scanf("%d", &usf);
     euf = usf - 1;
     printf("EU Floor %d\n", euf);

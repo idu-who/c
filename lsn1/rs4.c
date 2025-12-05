@@ -8,8 +8,7 @@ print('Line:', line)
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
     char line[1000];
     printf("Enter line\n");
     /*
