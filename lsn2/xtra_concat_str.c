@@ -12,11 +12,13 @@ print(first + " & " + second)
 #include <string.h>
 
 int main() {
+    void flushinp();
+
     char first[100], second[100];
     printf("Enter two strings\n");
-    scanf("%[^\n]99s", first);
-    getchar(); // clearing left-over \n from stdin
-    scanf("%[^\n]99s", second);
+    scanf("%99[^\n]s", first);
+    flushinp(); // clearing left-over characters
+    scanf("%99[^\n]s", second);
 
     printf("%s & %s\n", first, second); // without concat
 
@@ -29,4 +31,9 @@ int main() {
     strcat(combined, second);
     printf("%s\n", combined);
     return 0;
+}
+
+void flushinp() {
+    char c;
+    while ((c = getchar()) != '\n' && c != EOF);
 }

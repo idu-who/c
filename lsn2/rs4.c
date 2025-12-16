@@ -15,7 +15,7 @@ int main() {
     by defualt scanf stops reading input on any white space.
     [^\n] is like a regex that says read everything except \n
     */
-    scanf("%[^\n]999s", line);
+    scanf("%999[^\n]s", line);
     printf("Line: %s\n", line);
     return 0;
 }
