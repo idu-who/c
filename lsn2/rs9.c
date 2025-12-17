@@ -8,8 +8,9 @@ def mymult(a,b):
 
 #include <stdio.h>
 
+int mymult(int a, int b);
+
 int main() {
-    int mymult(int a, int b);
     int retval = mymult(6, 7);
     printf("Answer: %d\n", retval);
     return 0;

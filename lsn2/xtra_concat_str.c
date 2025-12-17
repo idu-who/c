@@ -11,9 +11,9 @@ print(first + " & " + second)
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    void flushinp();
+void flushinp();
 
+int main() {
     char first[100], second[100];
     printf("Enter two strings\n");
     scanf("%99[^\n]s", first);
@@ -34,6 +34,6 @@ int main() {
 }
 
 void flushinp() {
-    char c;
+    int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }

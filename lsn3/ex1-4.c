@@ -5,9 +5,9 @@ table.
 
 #include <stdio.h>
 
-int main() {
-    float convert_c_to_f(float celsius);
+float convert_c_to_f(float celsius);
 
+int main() {
     float celsius, fahrenheit;
 
     printf("Celsius\t\tFahrenheit\n");

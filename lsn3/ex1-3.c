@@ -7,9 +7,9 @@ print Fahrenheit-Celsius table for f = 0, 20, ..., 300
 
 #include <stdio.h>
 
-int main() {
-    float convert_f_to_c(float fahrenheit);
+float convert_f_to_c(float fahrenheit);
 
+int main() {
     float celsius, fahrenheit;
 
     printf("Fahrenheit\t\tCelsius\n");
