@@ -1,5 +1,6 @@
 /*
-Write a program to read input then parse and print words from input.
+K&R Exercise 1-10. Write a program which prints the words in its input, one per
+line.
 */
 
 #include <stdbool.h>
