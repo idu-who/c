@@ -26,7 +26,6 @@ word count since the loop would exit before counting 'world'.
 bool is_blank(char c);
 
 int main() {
-
     // character, line_count, word_count, character_count
     int c, lc, wc, cc;
     // is_in_word flag
@@ -47,9 +46,10 @@ int main() {
         }
     }
 
-    printf("\ncharacters: %d\n", cc);
-    printf("words: %d\n", wc);
-    printf("lines: %d\n", lc);
+    printf("%d %d %d\n", cc, wc, lc);
+    // printf("\ncharacters: %d\n", cc);
+    // printf("words: %d\n", wc);
+    // printf("lines: %d\n", lc);
 
     return 0;
 }
