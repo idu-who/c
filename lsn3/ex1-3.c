@@ -27,8 +27,11 @@ int main() {
 }
 
 float convert_f_to_c(float fahrenheit) {
-    // explicitly doing floating point division since
-    // integer division truncates the fractional part
-    float celsius = (5.0 / 9.0) * (fahrenheit - 32);
+    /*
+        explicitly doing floating point division since
+        integer division truncates the fractional part.
+        also, using F for float constants. C defaults to double constants.
+    */
+    float celsius = (5.0F / 9.0F) * (fahrenheit - 32);
     return celsius;
 }

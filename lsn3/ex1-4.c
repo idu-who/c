@@ -1,6 +1,6 @@
 /*
-K&R Exercise 1-4. Write a program to print the corresponding Celsius to Fahrenheit
-table.
+K&R Exercise 1-4. Write a program to print the corresponding Celsius to
+Fahrenheit table.
 */
 
 #include <stdio.h>
@@ -19,6 +19,6 @@ int main() {
 }
 
 float convert_c_to_f(float celsius) {
-    float fahrenheit = celsius * (9.0 / 5.0) + 32;
+    float fahrenheit = celsius * (9.0F / 5.0F) + 32;
     return fahrenheit;
 }

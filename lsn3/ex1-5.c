@@ -12,7 +12,7 @@ in reverse order, that is, from 300 degrees to 0.
 int main() {
     printf("Fahrenheit\t\tCelsius\n");
     for (int fahr = UPPER; fahr >= LOWER; fahr -= STEP) {
-        printf("%10d\t\t%7.2f\n", fahr, (5.0 / 9.0) * (fahr - 32));
+        printf("%10d\t\t%7.2f\n", fahr, (5.0F / 9.0F) * (fahr - 32));
     }
     return 0;
 }

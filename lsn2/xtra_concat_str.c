@@ -24,7 +24,7 @@ int main() {
 
     // (100 - 1) + (100 - 1) + 1 + 3 [1's for '\0'] [3 for " & "]
     char combined[202];
-    // dynamically sized arr. +4 for len(" & ") + '\0'
+    // VLA (Variable Length Array) +4 for len(" & ") + '\0'
     // char combined[strlen(first) + strlen(second) + 4];
     strcpy(combined, first);
     strcat(combined, " & ");
