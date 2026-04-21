@@ -13,10 +13,10 @@ int main() {
             break;
 
         int val = atoi(line);
-        if (val < minval)
-            minval = val;
         if (val > maxval)
             maxval = val;
+        if (val < minval)
+            minval = val;
     }
     printf("Maximum %d\n", maxval);
     printf("Minimum %d\n", minval);

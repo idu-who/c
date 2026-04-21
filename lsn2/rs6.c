@@ -2,7 +2,7 @@
 Exercise RS-6: Write a C program to produce the same output as this Python
 program using a 'for' loop.
 
-for i in range(5) :
+for i in range(5):
     print(i)
 */
 
